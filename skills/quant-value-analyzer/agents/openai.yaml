@@ -1,0 +1,7 @@
+interface:
+  display_name: "量化价值分析"
+  short_description: "A股基本面体检、疑点追踪与DCF估值"
+  default_prompt: "Use $quant-value-analyzer to run a conservative A-share value analysis with F-Score, B-Score, doubt tracking, and DCF valuation."
+
+policy:
+  allow_implicit_invocation: true
