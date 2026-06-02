@@ -13,9 +13,20 @@ This repository is adapted from a Coze skill package into a portable Codex skill
 - Estimates intrinsic value using a two-stage free cash flow DCF model.
 - Produces a consistent final investment analysis report template.
 
+## Language Support
+
+The skill source is bilingual-friendly:
+
+- Chinese users can ask in Chinese and receive Chinese reports.
+- English users can ask in English and receive English reports.
+- By default, the skill should answer in the user's language unless a target language is specified.
+
+The current detailed workflow inside `SKILL.md` is written primarily in Chinese because the original Coze package targeted Chinese value-investing analysis. Modern coding agents such as Codex can still use it from English prompts; see the examples below.
+
 ## Repository Structure
 
 ```text
+examples/
 skills/
   quant-value-analyzer/
     SKILL.md
@@ -49,6 +60,12 @@ Use $quant-value-analyzer to analyze Berkshire Hathaway Class B (BRK.B) with the
 ```
 
 The skill requires current public financial data. If the running agent cannot browse or access market data, provide the latest annual report, quarterly report, valuation metrics, and market price manually.
+
+## Examples
+
+- [Sample prompts](examples/sample-prompts.md)
+- [Short output preview](examples/output-preview.md)
+- [Berkshire Hathaway Class B validation example](examples/brkb-analysis.md)
 
 ## Scripts
 
