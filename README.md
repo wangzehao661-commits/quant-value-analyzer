@@ -1,12 +1,12 @@
 # Quant Value Analyzer
 
-Codex skill for Chinese A-share quantitative value analysis. It combines F-Score financial risk screening, B-Score business quality scoring, doubt tracking, moat analysis, management verification, and two-stage DCF valuation.
+Codex skill for listed-company quantitative value analysis, with a China A-share first workflow and support for other public equities when comparable public data is available. It combines F-Score financial risk screening, B-Score business quality scoring, doubt tracking, moat analysis, management verification, and two-stage DCF valuation.
 
 This repository is adapted from a Coze skill package into a portable Codex skill format so other agents can install and reuse it.
 
 ## What It Does
 
-- Runs a structured A-share value analysis workflow.
+- Runs a structured listed-company value analysis workflow.
 - Calculates Piotroski F-Score for financial risk screening.
 - Calculates quantitative and full B-Score for business quality.
 - Tracks doubts raised by quantitative signals and requires qualitative closure.
@@ -38,10 +38,14 @@ Restart Codex after installation so the skill is picked up.
 
 ## Use
 
-Ask Codex for a deep value analysis of an A-share company, for example:
+Ask Codex for a deep value analysis of a listed company, for example:
 
 ```text
 Use $quant-value-analyzer to analyze 600519 贵州茅台 with the latest annual report, F-Score, B-Score, doubt tracking, and conservative DCF valuation.
+```
+
+```text
+Use $quant-value-analyzer to analyze Berkshire Hathaway Class B (BRK.B) with the latest annual report, F-Score, B-Score, doubt tracking, and conservative DCF valuation.
 ```
 
 The skill requires current public financial data. If the running agent cannot browse or access market data, provide the latest annual report, quarterly report, valuation metrics, and market price manually.
@@ -63,4 +67,4 @@ This skill is for research and education only. It is not financial advice, inves
 
 ## License
 
-MIT
+Apache-2.0. Redistributed versions should retain the `NOTICE` file attribution.
