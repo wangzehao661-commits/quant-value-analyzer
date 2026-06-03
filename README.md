@@ -1,4 +1,4 @@
-# Quant Value Analyzer
+# Quant Value Analyzer Skill
 
 Codex skill for listed-company quantitative value analysis, with a China A-share first workflow and support for other public equities when comparable public data is available. It combines F-Score financial risk screening, B-Score business quality scoring, doubt tracking, moat analysis, management verification, and two-stage DCF valuation.
 
@@ -41,7 +41,7 @@ From a machine with access to this public GitHub repository:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo wangzehao661-commits/quant-value-analyzer \
+  --repo wangzehao661-commits/quant-value-analyzer-skill \
   --path skills/quant-value-analyzer
 ```
 
