@@ -11,6 +11,10 @@ Use $quant-value-analyzer to analyze Apple (AAPL). Please answer in English, cit
 ```
 
 ```text
+Use $quant-value-analyzer to analyze Pop Mart (09992.HK). Please answer in English and explain whether the market's pessimism is justified after checking F-Score, B-Score, moat, growth durability, and conservative DCF valuation.
+```
+
+```text
 Use $quant-value-analyzer to compare Costco (COST) and Walmart (WMT) from a long-term value investing perspective. Highlight valuation, moat, capital allocation, and margin of safety.
 ```
 
@@ -26,4 +30,8 @@ Use $quant-value-analyzer to compare Costco (COST) and Walmart (WMT) from a long
 
 ```text
 使用 $quant-value-analyzer 分析 伯克希尔B，注意它是保险和投资控股公司，不要机械套普通制造业指标。
+```
+
+```text
+使用 $quant-value-analyzer 分析 泡泡玛特 09992.HK，重点验证 LABUBU 热度、海外扩张、库存上升和 DCF 安全边际。
 ```

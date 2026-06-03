@@ -66,6 +66,27 @@ The skill requires current public financial data. If the running agent cannot br
 - [Sample prompts](examples/sample-prompts.md)
 - [Short output preview](examples/output-preview.md)
 - [Berkshire Hathaway Class B validation example](examples/brkb-analysis.md)
+- [Pop Mart validation example](examples/popmart-analysis.md)
+
+## Visual Examples
+
+### Why This Skill Is Useful
+
+| English | 中文 |
+|---|---|
+| ![Why this skill is powerful](examples/assets/skill-intro-en.jpg) | ![为什么这个 Skill 能看清一家公司的真相](examples/assets/skill-intro-zh.jpg) |
+
+### Case Studies
+
+| Berkshire Hathaway | Pop Mart |
+|---|---|
+| ![Berkshire Hathaway BRK.B value analysis](examples/assets/brkb-en.jpg) | ![Pop Mart 09992.HK value analysis](examples/assets/popmart-en.jpg) |
+
+Chinese versions:
+
+| 伯克希尔 | 泡泡玛特 |
+|---|---|
+| ![伯克希尔 BRK.B 深度价值分析](examples/assets/brkb-zh.jpg) | ![泡泡玛特 09992.HK 深度价值分析](examples/assets/popmart-zh.jpg) |
 
 ## Scripts
 
