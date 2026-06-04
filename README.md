@@ -4,6 +4,48 @@ Codex skill for listed-company quantitative value analysis, with a China A-share
 
 This repository is adapted from a Coze skill package into a portable Codex skill format so other agents can install and reuse it.
 
+> Research and education only. This skill is not financial advice, investment advice, or a recommendation to buy or sell securities.
+
+## Quick Start
+
+Install the skill into Codex:
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo wangzehao661-commits/quant-value-analyzer-skill \
+  --path skills/quant-value-analyzer
+```
+
+Restart Codex, then ask:
+
+```text
+Use $quant-value-analyzer to analyze Berkshire Hathaway Class B (BRK.B) with the latest annual report, F-Score, B-Score, doubt tracking, and conservative DCF valuation.
+```
+
+For Chinese users:
+
+```text
+用 $quant-value-analyzer 分析 600519 贵州茅台，结合最新年报、F-Score、B-Score、疑点跟踪和保守 DCF 估值。
+```
+
+The running agent needs current public financial data. If browsing or market-data access is unavailable, provide the latest annual report, quarterly report, valuation metrics, and market price manually.
+
+## Who This Is For
+
+Use this skill if you want:
+
+- A repeatable value-investing analysis workflow for public companies.
+- A structured way to combine financial screening, business quality, doubts, moat, management and valuation.
+- Bilingual Chinese/English outputs for research notes or investment-study practice.
+- A portable Codex skill that other agents can install and reuse.
+
+Do not use it as:
+
+- A stock-picking signal by itself.
+- A substitute for your own due diligence.
+- A promise of future returns.
+- A recommendation to buy, hold or sell any security.
+
 ## What It Does
 
 - Runs a structured listed-company value analysis workflow.
@@ -45,7 +87,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
   --path skills/quant-value-analyzer
 ```
 
-Restart Codex after installation so the skill is picked up.
+Restart Codex after installation so the skill is picked up. This repeats the Quick Start install command for readers who jump directly to the install section.
 
 ## Use
 
